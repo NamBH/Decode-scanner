@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="green">#ef1402</color> <!-- Green 500 -->
+    <color name="greenDark">#970000</color> <!-- Green 700 -->
+    <color name="greyEmpty">#fafafa</color> <!-- Grey 50 -->
+    <color name="greyMaterialLight">#eeeeee</color> <!-- Grey 200 -->
+    <color name="grey">#9e9e9e</color> <!-- Grey 500 -->
+    <color name="greyDark">#616161</color> <!-- Grey 700 -->
+    <color name="greyMaterialDark">#424242</color> <!-- Grey 800 -->
+
+</resources>

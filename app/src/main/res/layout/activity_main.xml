@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"></com.google.android.gms.ads.AdView>
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adView">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/actionSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            fab:fab_colorNormal="@color/green"
+            fab:fab_colorPressed="@color/greenDark"
+            fab:fab_icon="@drawable/ic_settings" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/actionSettings"
+            android:layout_alignTop="@+id/actionSettings"
+            android:layout_toLeftOf="@+id/actionSettings"
+            android:layout_toStartOf="@+id/actionSettings">
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/actionHistory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                fab:fab_colorNormal="@color/green"
+                fab:fab_colorPressed="@color/greenDark"
+                fab:fab_icon="@drawable/ic_history"
+                fab:fab_size="mini" />
+
+        </RelativeLayout>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/actionFlash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            fab:fab_colorNormal="@color/green"
+            fab:fab_colorPressed="@color/greenDark"
+            fab:fab_icon="@drawable/ic_flash_off" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/actionFlash"
+            android:layout_alignTop="@+id/actionFlash"
+            android:layout_toLeftOf="@+id/actionFlash"
+            android:layout_toStartOf="@+id/actionFlash">
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/actionFocus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                fab:fab_colorNormal="@color/green"
+                fab:fab_colorPressed="@color/greenDark"
+                fab:fab_icon="@drawable/ic_focus_on"
+                fab:fab_size="mini" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imageViewState"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+        <ImageView
+            android:id="@+id/imageViewPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:alpha="0"
+            android:src="@drawable/ic_play" />
+
+        <ImageView
+            android:id="@+id/imageViewPause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:alpha="0"
+            android:src="@drawable/ic_pause" />
+    </RelativeLayout>
+
+</RelativeLayout>

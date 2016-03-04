@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Decode scanner</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6092828069522249/4155976016</string>
+    <string name="about">About</string>
+    <string name="all">All</string>
+    <string name="autofocus">AutoFocus</string>
+    <string name="autofocus_on">AutoFocus enabled</string>
+    <string name="autofocus_off">AutoFocus disabled</string>
+    <string name="begin">Empty history</string>
+    <string name="beginning">Start scanning&#8230;</string>
+	<string name="cancel">Cancel</string>
+    <string name="choose_format">Choose format(s)</string>
+    <string name="clear">Clear</string>
+    <string name="content">Result</string>
+    <string name="copyright" translatable="false">Copyright &#169; 2015 vn apnic</string>
+    <string name="developer">Decode for Android.</string>
+    <string name="done">Emptied history</string>
+    <string name="drawer_close" translatable="false">Drawer close</string>
+    <string name="drawer_open" translatable="false">Drawer open</string>
+    <string name="empty">Clear history ?</string>
+    <string name="filter">Filter</string>
+    <string name="flash">No LED (Flash) detects !</string>
+    <string name="format" translatable="false">Format</string>
+	<string name="hello">Hello</string>
+    <string name="history">History</string>
+    <string name="info" translatable="false">Informations</string>
+    <string name="message">Decode for Android.</string>
+    <string name="no">No</string>
+    <string name="no_barcode">in history</string>
+    <string name="okay" translatable="false">OK</string>
+    <string name="result">Result</string>
+    <string name="search">Search&#8230;</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="url" translatable="false">https://play.google.com/store/search?q=VN%20APNIC&amp;c=apps</string>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Copyright (C) 2015 Damien Chazoule
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<resources>
+
+    <string-array name="nav_drawer_items" translatable="false">
+        <item>@string/all</item>
+        <item>Aztec</item>
+        <item>UPC A</item>
+        <item>UPC E</item>
+        <item>EAN 8</item>
+        <item>EAN 13</item>
+        <item>ISBN</item>
+        <item>RSS 14</item>
+        <item>Code 39</item>
+        <item>Code 93</item>
+        <item>Code 128</item>
+        <item>ITF</item>
+        <item>Codabar</item>
+        <item>QR Code</item>
+        <item>Data Matrix</item>
+        <item>PDF 417</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/all_selector</item>
+        <item>@drawable/item_selector</item>
+    </array>
+
+</resources>
